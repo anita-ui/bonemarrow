@@ -1,0 +1,487 @@
+:root {
+  --green: #22B78E;
+  --white: #ffffff; 
+  --blue:#1D5AA6;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../img/Banner_mage 3.png");
+ height: 520px;
+ /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: initial;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.enquiry{
+  position: absolute;
+  top:10px;
+    right: 250px;
+    margin: 5px;
+    max-width: 300px;
+    padding: 16px;
+    background-color:var(--white);
+}
+/* Full-width input fields */
+input[type=text], input[type=email],input[type=number] {
+  width: 100%;
+  padding: 10px;
+  margin: 4px 0 4px 0;
+  border: 1px solid #e5e5e5;
+  /* background: #f1f1f1; */
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+input{
+  font-family: inherit;
+    font-size: small;
+    line-height: none;
+}
+.asterLogo{
+  position: absolute;
+  left: 250px;
+  top:40px
+}
+.asterLogoNext{
+  position: absolute;
+    top: 150px;
+    left: 250px
+}
+
+.asterFstPara{
+  
+  margin-top: 0;
+    margin-bottom: 1rem;
+    color:var(--white);
+    font-family:sans-serif;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    text-align: left;
+    width: 662px;
+}
+.asterScdPara{
+color:var(--white);
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 3.59px;
+    line-height: 34px;
+    width: 599px;
+    text-align: left;
+}
+.outerRect{
+  background-color:#3bafc5;
+  background-image: linear-gradient(to right, #3bafc5 , #5e7ae8);
+  border-radius: 4px;
+  width: 586px;
+  height: 95px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+/* Doctor */
+div.doctorDiv
+{
+  height: 532px;
+  background: #f9f9ff!important;
+  width: 550px;
+}
+/* know more */
+.knowMore{
+  background-color:#3bafc5;
+  background-image: linear-gradient(to right, #3bafc5 , #5e7ae8);
+  color:var(--white);
+    font-size: 15px;
+    height: 50px;
+    position: absolute;
+    top: 440px;
+    left: 250px;
+}
+hr.line{
+  margin-left: 60px;
+  padding: 0px;
+  border: 1px solid #f2f2ff;
+  width: 420px;
+  position: absolute;
+  top: 510px;
+}
+
+#bMt{
+  font-size: 16px;
+    width: 530px;
+    text-align: left;
+    color:var(--white);
+    padding: 17px 16px 18px 30px;
+}
+.boneMarw{
+  color:#717171;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+ 
+  text-align: left;
+}
+.bg-img2 {
+    height: 256px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    position: relative;
+    background-color: black;
+    width: 1440px;
+    left: 30px;
+}
+/* 
+footer */
+.fa {
+  padding-top: 5px;
+    /* font-size: 30px; */
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: var(--white);
+  
+}
+.fa-linkedin {
+  background: #007bb5;
+  color:var(--white);
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color:var(--white);
+}
+
+.fa-instagram {
+  background: var(--white);
+  color:purple;
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: var(--white);
+}
+.footerDivIcon{
+  position: absolute;
+    top: 50px;
+    left: 600px;
+}
+.copyRight{
+  position: absolute;
+    top: 120px;
+    left: 580px;;
+  color: var(--white);
+  font-family: StagSans;
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  line-height: 17px;
+  text-align: left;
+}
+.last{
+  position: absolute;
+    top: 90px;
+    left: 150px;;
+    border: 0.5px solid rgba(255, 255, 255, 0.21);
+    opacity: 0.3701869419642857;
+    width: 1110px;
+}
+ul.typeBone{
+  list-style-type: none;
+
+}
+li.typeMarrow{
+  list-style-image: url("../img/hospital.png");
+  color: #000000;
+  font-family:sans-serif;
+  font-size: 14px;
+  line-height: 39px;
+  width: 1068px;
+  text-align: left;
+}
+div.gallery {
+  background-color:var(--white);;
+  border: 1px solid #E5EAFF;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgb(187 165 228 / 10%);
+  width: 255px;
+  height: 170px;
+  margin:5px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+
+
+div.desc {
+  color: #000000;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    width: 210px;
+    text-align: left;
+    padding-left:30px;
+}
+ 
+ul.query{
+  list-style-type: none; 
+}
+div.content ul li.answer{
+  list-style-image: url("../img/double-tick-indicator.png");
+}
+div.Testimonials{
+  margin: 5px;
+  /* border: 1px solid #ccc; */
+  float: left;
+  width: 517px;
+  position: relative;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+ margin:15px;
+  height: 249px;
+}
+.bookApp{
+  background-color: var(--blue);
+  color:var(--white);
+  margin: 50px 0px 50px 420px;
+  width: 221px;
+  height: 54px;
+} 
+p.headingPara{
+  color: var(--green);
+  font-family: sans-serif;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 50px;
+}
+h4.subHeading{
+  color: var(--green);
+  font-family: sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.99px;
+  line-height: 44px;
+  text-align: center;
+  font-weight: bold;
+}
+
+img.cardImage{width: 256px;
+    height: 161px;
+    position: absolute;
+    top: 60px;
+    left: 170px;
+}
+
+img.cardImage2{width: 256px;
+  height: 161px;
+  position: absolute;
+  top: 570px;
+  left: 170px;
+}
+h6.doctorName{
+  color: #1D5AA6;
+  font-family: sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  left: 180px;
+}
+p.doctorqua{
+  color: var(--blue);
+  font-family: sans-serif;
+  font-size: 15px;
+  /* letter-spacing: 0.5px; */
+  line-height: 26px;
+  text-align: center;
+  position: absolute;
+  top: 280px;
+  left: 100px;
+}
+hr.divider{
+  border: 1px solid var(--green);
+    width: 37px;
+    /* height: 1px; */
+    position: absolute;
+    top: 330px;
+    left: 280px;
+  }
+  p.doctordetail{
+    color: #000000;
+    font-family: stagSans;
+    font-size: 13px;
+    line-height: 20px;
+    width: 423px;
+    text-align: center;
+    position: absolute;
+    top: 360px;
+    left: 100px;
+  }
+ .doctorDiv h6.doctorNameSec{
+    color: var(--blue);
+    font-family: sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    text-align: center;
+    position: absolute;
+    top: 750px;
+    left: 180px;
+  }
+  p.doctorquaSec{
+    color: var(--blue);
+  font-family: sans-serif;
+  font-size: 15px;
+  /* letter-spacing: 0.5px; */
+  line-height: 26px;
+  text-align: center;
+  position: absolute;
+  top: 780px;
+  left: 100px;
+  }
+  p.doctordetailSec{
+    color: #000000;
+    font-family: stagSans;
+    font-size: 13px;
+    line-height: 20px;
+    width: 423px;
+    text-align: center;
+    position: absolute;
+    top: 870px;
+    left: 100px;
+  }
+  hr.dividerSec
+  {
+    border: 1px solid var(--green);
+    width: 37px;
+    /* height: 1px; */
+    position: absolute;
+    top: 830px;
+    left: 280px;
+  }
+  .knowMoreSec{
+    background-color:#3bafc5;
+    background-image: linear-gradient(to right, #3bafc5 , #5e7ae8);
+    color: var(--white);
+      font-size: 15px;
+      height: 50px;
+      position: absolute;
+      top: 960px;
+      left: 250px;
+  }
+  img.smallIcons{
+    padding:20px 0px 20px 30px;
+  }
+  div.descSec{
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 21px;
+    width: 410px;
+    text-align: left;
+  }
+   
+  .collapsible {
+    background-color:var(--white);
+    color: var(--blue);
+  
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(245, 244, 244);
+  }
+  .collapsible .arrow{
+    float: right;
+  }
+  
+  .collapsible:after {
+    
+    
+    color:var(--white);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
+  /* responsive */
+  
+  
+
+  @media screen and (max-width: 768px) {
+    /* For tablet: */
+  
+    [class="container-fluid"] {
+      width: 100%;
+      padding-right: 0px;
+     padding-left: 0px;
+    }
+    [class="bg-img"] {
+      width: 100%;
+      height: 250px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    img.asterLogo{
+      position: absolute;
+      left: 30px;
+      top: 10px;
+      width: 50px;
+    }
+    .asterLogoNext {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      width:70px
+  }
+
+  }
